@@ -18,7 +18,7 @@
   color: #fff;
 }
 .btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px); //can also use scale
   box-shadow: 0 10px 0.5rem rgba(color(black), 0.6);
 }
 .btn:after {
