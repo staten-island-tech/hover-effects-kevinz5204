@@ -21,7 +21,7 @@ html {
   text-decoration: none;
   /*Gets rid of underline*/
   padding: 1.5rem 4rem;
-  background-color: red;
+  background-color: #ff5722;
   margin: 1rem auto;
   font-size: 2rem;
   border-radius: 10rem;
@@ -31,6 +31,11 @@ html {
 }
 
 .btn-red {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.btn-red:after {
   background-color: #ff5722;
   color: #fff;
 }
@@ -54,6 +59,21 @@ html {
   z-index: -1;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.btn:hover::after {
+  -webkit-transform: scaleX(1.5) scaleY(1.6);
+          transform: scaleX(1.5) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-transform: scaleX(1.5) scaleY(1.6);
+          transform: scaleX(1.5) scaleY(1.6);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .container {
