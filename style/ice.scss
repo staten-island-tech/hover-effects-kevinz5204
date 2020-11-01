@@ -1,0 +1,31 @@
+/*@import '_variables';
+.icecream-parent {
+  width: 60rem;
+  height: 40rem;
+  background-color: red;
+}
+.icecream-gallery {
+  margin: 3rem;
+  position: relative;
+}
+.ice-photo {
+  position: absolute;
+  height: 20rem;
+  box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.4);
+
+  transition: all 0.3s;
+}
+.ice-photo-1 {
+  top: 10rem;
+  left: 15%;
+}
+.ice-photo-2 {
+  top: 2rem;
+  right: 0;
+}
+.ice-photo-3 {
+  top: -2rem;
+  left: 0;
+}
+.ice-photo:hover {
+}
