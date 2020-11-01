@@ -1,0 +1,24 @@
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-effect {
+  background-image: url("./media/space.jpg");
+  background-position: center;
+  color: transparent;
+  font-size: 8rem;
+  -webkit-background-clip: text;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  -webkit-transform: skewY(-10deg);
+          transform: skewY(-10deg);
+  letter-spacing: 3rem;
+}
+/*# sourceMappingURL=text-effects.css.map */
