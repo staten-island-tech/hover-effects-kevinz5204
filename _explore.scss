@@ -1,7 +1,6 @@
 @import '_variables.scss';
 .explore {
   height: 30rem;
-  //position: relative;
   position: relative;
 }
 .explore-picture {
@@ -12,16 +11,18 @@
 .explore-header {
   font-size: 3rem;
   opacity: 0;
-  color: red;
+  color: #fff;
   position: absolute;
-  /*   top: 100%;
-  left: 50%; */
+  top: 100%;
+  left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s;
   text-transform: uppercase;
 }
 .explore:hover .explore-picture {
   filter: grayscale(90%);
+  transform: rotate(360deg);
+  transition: all 1s ease-in-out 0.1s;
 }
 .explore:hover .explore-header {
   opacity: 1;
