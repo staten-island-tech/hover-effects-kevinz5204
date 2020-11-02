@@ -205,10 +205,10 @@ html {
 .explore-header {
   font-size: 3rem;
   opacity: 0;
-  color: #fff;
+  color: red;
   position: absolute;
-  top: 100%;
-  left: 50%;
+  /*   top: 100%;
+  left: 50%; */
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transition: all 0.3s;

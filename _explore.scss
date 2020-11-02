@@ -1,6 +1,7 @@
 @import '_variables.scss';
 .explore {
   height: 30rem;
+  //position: relative;
   position: relative;
 }
 .explore-picture {
@@ -11,10 +12,10 @@
 .explore-header {
   font-size: 3rem;
   opacity: 0;
-  color: #fff;
+  color: red;
   position: absolute;
-  top: 100%;
-  left: 50%;
+  /*   top: 100%;
+  left: 50%; */
   transform: translate(-50%, -50%);
   transition: all 0.3s;
   text-transform: uppercase;
